@@ -6,56 +6,633 @@ uid: f86460b1-fbb5-dc68-2f5c-84c914fbcc86
 
 This table provides information about both the lecture (L) and recitation (R) sessions.
 
-| SES # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| R0 | Warming up. | &nbsp; |
-| L1 | Introduction and overview. Linear, time-invariant (LTI) systems. | &nbsp; |
-| R1 | Discrete-time Fourier transforms (DTFT), continuous-time Fourier transforms (CTFT): definitions and operations. | &nbsp; |
-| L2 | Classes of DTFT, CTFT; energy spectral density. | &nbsp; |
-| R2 | Spectral factorization. | &nbsp; |
-| L3 | Sampling, interpolation, discrete-time (DT) processing of continuous-time (CT) signals. | &nbsp; |
-| R3 | Fractional delay in DT systems. | Problem set 1 due |
-| L4 | Group delay. | &nbsp; |
-| L5 | State-space models. | &nbsp; |
-| R4 | Obtaining state-space models. | Problem set 2 due |
-| L6 | Equilibria and linearization. Modes of LTI state-space models. | &nbsp; |
-| R5 | Linearization, eigenvalues, eigenvectors, modes. | &nbsp; |
-| L7 | Reachability, observability, hidden modes, minimality. | &nbsp; |
-| R6 | Reachability, observability, hidden modes. | Problem set 3 due |
-| L8 | State observers and feedback. | &nbsp; |
-| R7 | Observers and feedback. | &nbsp; |
-| L9 | Observer-based feedback; DT control of CT systems. | &nbsp; |
-| R8 | Probability review. | Problem set 4 due |
-| L10 | Minimum mean-square-error (MMSE) and linear MMSE (LMMSE) estimation; orthogonality. | &nbsp; |
-| R09 | MMSE and LMMSE estimation. | &nbsp; |
-| L11 | Random processes, wide-sense stationarity (WSS). | &nbsp; |
-| R10 | Correlation/covariance functions. | Problem set 5 due |
-| L12 | Ergodicity. LMMSE prediction from finite data. | &nbsp; |
-| &nbsp; | **Quiz 1** | &nbsp; |
-| L13 | LTI filtering of WSS processes. | &nbsp; |
-| R11 | LTI filtering of WSS processes. | &nbsp; |
-| L14 | Power spectral density (PSD). | &nbsp; |
-| R12 | PSD. Modeling and whitening filters. | &nbsp; |
-| L15 | Unconstrained (noncausal) Wiener filtering. | &nbsp; |
-| R13 | Unconstrained Wiener filtering. | Problem set 6 due |
-| L16 | Oversampled noise modulation. | &nbsp; |
-| R14 | More PSD and Wiener filter practice. | &nbsp; |
-| L17 | Pulse-amplitude modulation (PAM); Nyquist condition for zero intersymbol interference (ISI). | &nbsp; |
-| R15 | PAM. Nyquist condition. | Problem set 7 due |
-| L18 | Binary PAM, hypothesis testing, minimum probability of error. | &nbsp; |
-| R16 | Optimal detection, false alarm, miss. | &nbsp; |
-| L19 | Likelihood ratio; Neyman-Pearson detection. | &nbsp; |
-| R17 | Receiver operating characteristic (ROC). | Problem set 8 due |
-| L20 | Quadrature amplitude modulation (QAM); modems. | &nbsp; |
-| &nbsp; | **Quiz 2** | &nbsp; |
-| L21 | Signal detection in white Gaussian noise. | &nbsp; |
-| R18 | Matched filtering. | &nbsp; |
-| L22 | Pulse compression. | &nbsp; |
-| R19 | Signal detection in colored noise. | Problem set 9 due |
-| L23 | (Causal) Wiener prediction. | &nbsp; |
-| R20 | Wiener prediction. | &nbsp; |
-| L24 | Spectral estimation, periodogram averaging. | &nbsp; |
-| R21 | Review. | Problem set 10 due |
-| L25 | Notions of information theory and coding. | &nbsp; |
-| R22 | Review. | &nbsp; |
-| L26 | Clinical monitoring, estimation and prediction. |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R0
+{{< tdclose >}}
+{{< tdopen >}}
+Warming up.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction and overview. Linear, time-invariant (LTI) systems.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R1
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete-time Fourier transforms (DTFT), continuous-time Fourier transforms (CTFT): definitions and operations.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+Classes of DTFT, CTFT; energy spectral density.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R2
+{{< tdclose >}}
+{{< tdopen >}}
+Spectral factorization.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+Sampling, interpolation, discrete-time (DT) processing of continuous-time (CT) signals.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R3
+{{< tdclose >}}
+{{< tdopen >}}
+Fractional delay in DT systems.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+Group delay.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+State-space models.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R4
+{{< tdclose >}}
+{{< tdopen >}}
+Obtaining state-space models.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+Equilibria and linearization. Modes of LTI state-space models.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R5
+{{< tdclose >}}
+{{< tdopen >}}
+Linearization, eigenvalues, eigenvectors, modes.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+Reachability, observability, hidden modes, minimality.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R6
+{{< tdclose >}}
+{{< tdopen >}}
+Reachability, observability, hidden modes.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+State observers and feedback.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R7
+{{< tdclose >}}
+{{< tdopen >}}
+Observers and feedback.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+Observer-based feedback; DT control of CT systems.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R8
+{{< tdclose >}}
+{{< tdopen >}}
+Probability review.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+Minimum mean-square-error (MMSE) and linear MMSE (LMMSE) estimation; orthogonality.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R09
+{{< tdclose >}}
+{{< tdopen >}}
+MMSE and LMMSE estimation.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+Random processes, wide-sense stationarity (WSS).
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R10
+{{< tdclose >}}
+{{< tdopen >}}
+Correlation/covariance functions.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 5 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+Ergodicity. LMMSE prediction from finite data.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+**Quiz 1**
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+LTI filtering of WSS processes.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R11
+{{< tdclose >}}
+{{< tdopen >}}
+LTI filtering of WSS processes.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+Power spectral density (PSD).
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R12
+{{< tdclose >}}
+{{< tdopen >}}
+PSD. Modeling and whitening filters.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+Unconstrained (noncausal) Wiener filtering.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R13
+{{< tdclose >}}
+{{< tdopen >}}
+Unconstrained Wiener filtering.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 6 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+Oversampled noise modulation.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R14
+{{< tdclose >}}
+{{< tdopen >}}
+More PSD and Wiener filter practice.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+Pulse-amplitude modulation (PAM); Nyquist condition for zero intersymbol interference (ISI).
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R15
+{{< tdclose >}}
+{{< tdopen >}}
+PAM. Nyquist condition.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 7 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+Binary PAM, hypothesis testing, minimum probability of error.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R16
+{{< tdclose >}}
+{{< tdopen >}}
+Optimal detection, false alarm, miss.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L19
+{{< tdclose >}}
+{{< tdopen >}}
+Likelihood ratio; Neyman-Pearson detection.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R17
+{{< tdclose >}}
+{{< tdopen >}}
+Receiver operating characteristic (ROC).
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 8 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L20
+{{< tdclose >}}
+{{< tdopen >}}
+Quadrature amplitude modulation (QAM); modems.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+**Quiz 2**
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L21
+{{< tdclose >}}
+{{< tdopen >}}
+Signal detection in white Gaussian noise.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R18
+{{< tdclose >}}
+{{< tdopen >}}
+Matched filtering.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L22
+{{< tdclose >}}
+{{< tdopen >}}
+Pulse compression.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R19
+{{< tdclose >}}
+{{< tdopen >}}
+Signal detection in colored noise.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 9 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L23
+{{< tdclose >}}
+{{< tdopen >}}
+(Causal) Wiener prediction.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R20
+{{< tdclose >}}
+{{< tdopen >}}
+Wiener prediction.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L24
+{{< tdclose >}}
+{{< tdopen >}}
+Spectral estimation, periodogram averaging.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R21
+{{< tdclose >}}
+{{< tdopen >}}
+Review.
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 10 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L25
+{{< tdclose >}}
+{{< tdopen >}}
+Notions of information theory and coding.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R22
+{{< tdclose >}}
+{{< tdopen >}}
+Review.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L26
+{{< tdclose >}}
+{{< tdopen >}}
+Clinical monitoring, estimation and prediction.
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

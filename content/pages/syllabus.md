@@ -32,13 +32,84 @@ Course Grade
 
 Your final grade in the course will be based on our best assessment of your understanding of the material and your engagement with the course. The relative weighting given to the components of the course in arriving at a preliminary grade (used as the starting point in our grades meeting) are listed below.
 
-| ACTIVITIES | OPTION 1 | OPTION 2 |
-| --- | --- | --- |
-| Homework | 10% | 0% |
-| Participation | 5% | 0% |
-| Quiz 1 | 25% | 30% |
-| Quiz 2 | 25% | 30% |
-| Final exam | 35% | 40% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+OPTION 1
+{{< thclose >}}
+{{< thopen >}}
+OPTION 2
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+{{< tdopen >}}
+0%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Participation
+{{< tdclose >}}
+{{< tdopen >}}
+5%
+{{< tdclose >}}
+{{< tdopen >}}
+0%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Quiz 1
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+{{< tdopen >}}
+30%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Quiz 2
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+{{< tdopen >}}
+30%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final exam
+{{< tdclose >}}
+{{< tdopen >}}
+35%
+{{< tdclose >}}
+{{< tdopen >}}
+40%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 The process of going from a preliminary grade to a final grade involves considerable discussion among the staff, and (especially if you're on a borderline) could include a careful review of the final exam to see what kinds of mistakes were made. Our aim in all this is to gauge your understanding of the material at the end of the term.
 

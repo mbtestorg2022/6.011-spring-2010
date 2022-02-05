@@ -11,24 +11,165 @@ This subject, taught in Spring of 2010, relied largely on the 6.011 lecture note
 
 The notes have also been adapted and published in book form by Prentice Hall: Oppenheim, Alan, and George Verghese. _Signals, Systems and Inference_. Prentice Hall, 2015. ISBN: 9780133943283.
 
-| CHAPTERS | NOTES |
-| --- | --- |
-| Complete course notes | ([PDF - 3.2MB]({{< baseurl >}}/resources/mit6_011s10_notes)) |
-| Table of contents | ([PDF]({{< baseurl >}}/resources/mit6_011s10_contents)) |
-| Chapter 1: Introduction | &nbsp; |
-| Chapter 2: Signals and systems | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap02)) |
-| Chapter 3: Transform representation of signals and linear, time-invariant (LTI) systems | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap03)) |
-| Chapter 4: State-space models | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap04)) |
-| Chapter 5: Properties of LTI state-space models | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap05)) |
-| Chapter 6: State observers and state feedback | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap06)) |
-| Chapter 7: Probabilistic models | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap07)) |
-| Chapter 8: Estimation with minimum mean square error | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap08)) |
-| Chapter 9: Random processes | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap09)) |
-| Chapter 10: Power spectral density | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap10)) |
-| Chapter 11: Wiener filtering | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap11)) |
-| Chapter 12: Pulse amplitude modulation (PAM), quadrature amplitude modulation (QAM) | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap12)) |
-| Chapter 13: Hypothesis testing | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap13)) |
-| Chapter 14: Signal detection | ([PDF]({{< baseurl >}}/resources/mit6_011s10_chap14)) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+CHAPTERS
+{{< thclose >}}
+{{< thopen >}}
+NOTES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Complete course notes
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF - 3.2MB]({{< baseurl >}}/resources/mit6_011s10_notes))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Table of contents
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_contents))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 1: Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 2: Signals and systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 3: Transform representation of signals and linear, time-invariant (LTI) systems
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 4: State-space models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap04))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 5: Properties of LTI state-space models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 6: State observers and state feedback
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap06))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 7: Probabilistic models
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap07))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 8: Estimation with minimum mean square error
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap08))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 9: Random processes
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap09))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 10: Power spectral density
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 11: Wiener filtering
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 12: Pulse amplitude modulation (PAM), quadrature amplitude modulation (QAM)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 13: Hypothesis testing
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap13))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 14: Signal detection
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit6_011s10_chap14))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Additional Texts
 ----------------
